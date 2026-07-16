@@ -1,0 +1,18 @@
+{
+  "name": "session-3-gamification-mechanics",
+  "version": "1.0.0",
+  "description": "team1 Kenya Mini Hack Cohort 2 - Session 3: badges, streaks & tiers on Avalanche Fuji (Hardhat)",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:fuji": "hardhat run scripts/deploy-all.js --network fuji",
+    "interact:fuji": "hardhat run scripts/interact.js --network fuji"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.1.2",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^17.4.2",
+    "hardhat": "^2.28.6"
+  }
+}

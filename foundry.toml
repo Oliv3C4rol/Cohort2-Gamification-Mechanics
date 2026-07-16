@@ -1,0 +1,13 @@
+# Foundry config — coexists with Hardhat in the same repo.
+# Hardhat uses cache/ + artifacts/ ; Foundry uses cache_forge/ + out/
+[profile.default]
+src = "contracts"
+test = "test"
+script = "script"
+out = "out"
+cache_path = "cache_forge"
+libs = ["lib"]
+solc_version = "0.8.24"
+
+[rpc_endpoints]
+fuji = "${FUJI_RPC_URL}"
